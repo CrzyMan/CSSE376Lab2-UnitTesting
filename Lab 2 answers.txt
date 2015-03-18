@@ -1,0 +1,36 @@
+1) Expedia, ExpediaTest
+
+2) Car, Flight, Hotel, User
+
+3) Flight privately stores a start date, an end date, and has public access to how many miles. It can also determin if it is equal to another object/Flight
+
+4) BookingTest, CarTest, FlightTest, HotelTest, UserTest
+
+5) TestThatUserInitializes(),
+   TestThatUserHasZeroFrequentFlierMilesOnInit(),
+   TestThatUserCanBookEverything(),
+   TestThatUserHasFrequentFlierMilesAfterBooking(),
+   TestThatUserCanBookAFlight(),
+   TestThatUserHasCorrectNumberOfFrequentFlierMilesAfterOneFlight()
+
+6) TestThatUserCanBookAFlight(),
+   TestThatUserCanBookAHotelAndACar(),
+   TestThatUserHasCorrectNumberOfFrequentFlyerMilesAfterOneFlight()
+
+7) TestThatUserCanBookAFlight() - books a flight and checks that the target has 1 booking
+   TestThatUserCanBookAHotelAndACar() - books a hotel and car and checks that the target has 2 bookings
+   TestThatUserHasCorrectNumberOfFrequentFlyerMilesAfterOneFlight() - Books a flight with 500 miles then checks if the user has 500 miles
+
+8) Equal means they have the same value, Same is that they are the same object
+
+9) That the target is not a null
+
+10) 45*numberOfNightsToRent
+
+11) They test that a specific number of nights produces the appropriate base cost
+
+12) Because we are making the target, and it will fail if it is
+
+13) Because you have to stay for more than 0 days
+
+14) [ExpectedException(typeof(OutOfMemoryException))]
